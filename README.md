@@ -5,7 +5,7 @@ HTML/CSS로 제작한 미니 프로젝트 모음집입니다.
 
 ## 무엇을 구현했나요?
 
-[FrontEndMento](challenges) 과 Free Web Desing을 구현하였습니다.
+[FrontEndMento](https://www.frontendmentor.io/home)의 challenges과 Free Web Desing을 구현하였습니다.
 
 ## 배포
 
