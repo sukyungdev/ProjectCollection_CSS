@@ -33,8 +33,7 @@ main {
 
 .qr_code {
   display: block;
-  width: 288px;
-  height: 288px;
+  max-width: 100%;
   border-radius: 10px;
   margin-bottom: 24px;
 }
@@ -55,7 +54,8 @@ main {
 }
 
 .attribution {
- font-size: 15px;
+ font-size: 12px;
+ line-height: 1.25;
  color: #adb0b9;
 }
 
