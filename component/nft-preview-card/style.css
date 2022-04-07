@@ -22,19 +22,42 @@ main {
   margin-bottom: 15px;
   border-radius: 15px;
   background-color: #15263F;
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+  ;
 }
 
-.image-equilibrium {
+/* img hover */
+.img-box {
+  position: relative;
+}
+
+.view{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 302px;
+  height: 302px;
+  background: url("./images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 255, 248, 0.5);
+  border-radius: 8px;
+  opacity: 0.0;
+  transition: opacity 350ms ease-out;
+}
+
+.view:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.img-equilibrium {
   display: block;
   max-width: 100%;
   border-radius: 8px;
   margin-bottom: 24px;
 }
-
-.image-equilibrium:hover {
-  background-image: url("./images/icon-view.svg");
-}
-
+/*img hover end */
 
 .title {
   font-size: 22px;
@@ -42,6 +65,11 @@ main {
   line-height: 27.72px;
   color: #FFFFFF;
   margin-bottom: 16px;
+}
+
+.title:hover {
+  color: #00FFF8;
+  cursor: pointer;
 }
 
 .description {
@@ -152,4 +180,8 @@ main {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.attribution strong {
+  font-weight: 400;
 }
