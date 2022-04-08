@@ -15,3 +15,4 @@ netlify를 이용하여 배포하였습니다.
 ## 구현 목록
 
 - 22.03.24 [QR code component](https://sudev-cssproject.netlify.app/component/qr_code/index.html)
+- 22.04.08 [NFT preivew card component](https://sudev-cssproject.netlify.app/component/nft-preview-card/index.html)
