@@ -46,11 +46,6 @@ main {
   transition: opacity 350ms ease-out;
 }
 
-.view:hover {
-  opacity: 1;
-  cursor: pointer;
-}
-
 .img-equilibrium {
   display: block;
   max-width: 100%;
@@ -65,11 +60,6 @@ main {
   line-height: 27.72px;
   color: #FFFFFF;
   margin-bottom: 16px;
-}
-
-.title:hover {
-  color: #00FFF8;
-  cursor: pointer;
 }
 
 .description {
@@ -165,10 +155,6 @@ main {
   color: #FFFFFF;
 }
 
-.creation .name:hover{
-  color: #00FFF8;
-}
-
 /* attribution */
 
 .attribution {
@@ -184,4 +170,43 @@ main {
 
 .attribution strong {
   font-weight: 400;
+}
+
+
+/*media-query*/
+/* Desktop */
+@media screen and (min-width : 375px){
+  .view:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .title:hover {
+    color: #00FFF8;
+    cursor: pointer;
+  }
+
+  .creation .name:hover{
+    color: #00FFF8;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width : 374px){
+  main {
+    width: 327px;
+    height: 543px;
+  }
+
+  .title {
+    margin-bottom: 12px;
+  }
+
+  .description {
+    margin-bottom: 16px;
+  }
+
+  .information {
+    margin-bottom: 16px;
+  }
 }
