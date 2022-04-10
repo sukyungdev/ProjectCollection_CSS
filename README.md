@@ -16,3 +16,4 @@ netlify를 이용하여 배포하였습니다.
 
 - 22.03.24 [QR code component](https://sudev-cssproject.netlify.app/component/qr_code/index.html)
 - 22.04.08 [NFT preivew card component](https://sudev-cssproject.netlify.app/component/nft-preview-card/index.html)
+- 22.04.11 [Order summary component](https://sudev-cssproject.netlify.app/component/order-summary-component/index.html)
