@@ -3,16 +3,6 @@
   margin: 0;
 }
 
-body {
-  font-family: 'Red Hat Display', sans-serif;
-  background-color: #E0E8FF;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 a {
   text-decoration: none;
 }
@@ -21,19 +11,36 @@ button {
   border-style: none;
 }
 
+/* mobile */
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  /* bg */
+  background-color: #E0E8FF;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* ------- */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 main {
   width: 327px;
   height: 567px;
   background-color: #FFF;
   border-radius: 20px;
   margin-bottom: 15px;
+  box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.151826);
 }
 
 .img {
   max-width: 100%;
   height: 160px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-radius: 20px 20px 0 0;
   margin-bottom: 32px;
 }
 
@@ -60,6 +67,7 @@ main {
   color: #717FA6;
 }
 
+/* plan */
 .plan {
   display: flex;
   justify-content: center;
@@ -115,6 +123,8 @@ main {
   border-bottom: 1px solid #382AE1;
 }
 
+/* button */
+
 .payment {
   width: 100%;
   height: 50px;
@@ -141,6 +151,7 @@ main {
 .attribution { 
   font-size: 11px; 
   text-align: center; 
+  color: #717FA6;
 }
 
 .attribution a {
@@ -152,7 +163,14 @@ main {
 }
 
 /* desktop */
-@media screen and (min-width : 450px) {
+@media screen and (min-width : 768px) {
+
+  /* bg */
+  body {
+    background-image: url("./images/pattern-background-mobile.svg");
+  }
+  /* ------- */
+
   main {
     width: 450px;
     height: 697px;
@@ -160,11 +178,11 @@ main {
   
   .img {
     height: 220px;
-    margin-bottom: 45px;
+    margin-bottom: 0;
   }
   
   .content {
-    padding: 0 48px;
+    padding: 45px  48px 48px;
   }
   
   .title {
@@ -183,16 +201,11 @@ main {
   .plan {
     height: 98px;
     padding: 25px;
-    margin: 0 auto 57px;
+    margin: 0 auto 32px;
   }
   
   .plan-content {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px;
+    margin-right: 92px;
   }
   
   .plan-name {
@@ -207,46 +220,32 @@ main {
   }
   
   .plan-change {
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 1.30769230769;
-    color: #382AE1;
-    border-bottom: 1px solid #382AE1;
+    font-size: 14px;
+    line-height: 1.35714285714;
   }
   
+  .plan-change:hover {
+    border: none;
+    color: #766CF1;
+  }
+
   .payment {
-    width: 100%;
-    height: 50px;
-    border-radius: 11px;
-    background-color: #382AE1;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 900;
-    line-height: 1.33333333333;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 24px;
+    box-shadow: 0 20px 20px rgba(56, 42, 225, 0.190291);
+    margin-bottom: 32px;
+  }
+
+  .payment:hover {
+    background-color: #766CF1;
+    cursor: pointer;
+  }
+
+  .cancel:hover {
+    color: #1F2E55;
+    cursor: pointer;
   }
   
-  .cancel {
-    display: block;
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    color: #717FA6;
-    font-size: 15px;
-    font-weight: 900;
-    line-height: 1.33333333333;
-  }
   
   .attribution { 
-    font-size: 11px; 
-    text-align: center; 
-  }
-  
-  .attribution a {
-    color: hsl(228, 45%, 44%); 
-  }
-  
-  .attribution strong {
-    font-weight: 400;
+    font-size: 12px; 
   }
 }
