@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #E0E8FF;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border-style: none;
+}
+
+main {
+  width: 327px;
+  height: 567px;
+  background-color: #FFF;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.img {
+  max-width: 100%;
+  height: 160px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-bottom: 32px;
+}
+
+.content {
+  padding: 0 24px;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.31818181818;
+  margin-bottom: 16px;
+  color: #1F2E55;
+}
+
+.description {
+  text-align: center;
+  padding: 0 3%;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.66666666667;
+  margin-bottom: 24px;
+  color: #717FA6;
+}
+
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 81px;
+  background-color: #F7F9FF;
+  padding: 16px;
+  margin: 0 auto 24px;
+  border-radius: 11px;
+}
+
+.plan::before {
+  content: '';
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  background-image: url("./images/icon-music.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.plan-content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.plan-name {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.35714285714;
+  color: #1F2E55;
+  margin-bottom: 3px;
+}
+
+.plan-year {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.35714285714;
+  color: #717FA6;
+}
+
+.plan-change {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.30769230769;
+  color: #382AE1;
+  border-bottom: 1px solid #382AE1;
+}
+
+.payment {
+  width: 100%;
+  height: 50px;
+  border-radius: 11px;
+  background-color: #382AE1;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 1.33333333333;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 24px;
+}
+
+.cancel {
+  display: block;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  color: #717FA6;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 1.33333333333;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
+
+.attribution strong {
+  font-weight: 400;
+}
+
+/* desktop */
+@media screen and (min-width : 450px) {
+  main {
+    width: 450px;
+    height: 697px;
+  }
+  
+  .img {
+    height: 220px;
+    margin-bottom: 45px;
+  }
+  
+  .content {
+    padding: 0 48px;
+  }
+  
+  .title {
+    font-size: 28px;
+    line-height: 1.32142857143;
+    margin-bottom: 17px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 20px;
+    padding: 0 8%;
+  }
+  
+  .plan {
+    height: 98px;
+    padding: 25px;
+    margin: 0 auto 57px;
+  }
+  
+  .plan-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+  .plan-name {
+    font-size: 16px;
+    line-height: 1.3125;
+    margin-bottom: 6px;
+  }
+  
+  .plan-year {
+    font-size: 16px;
+    line-height: 1.3125;
+  }
+  
+  .plan-change {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.30769230769;
+    color: #382AE1;
+    border-bottom: 1px solid #382AE1;
+  }
+  
+  .payment {
+    width: 100%;
+    height: 50px;
+    border-radius: 11px;
+    background-color: #382AE1;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.33333333333;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+  }
+  
+  .cancel {
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.33333333333;
+  }
+  
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%); 
+  }
+  
+  .attribution strong {
+    font-weight: 400;
+  }
+}
