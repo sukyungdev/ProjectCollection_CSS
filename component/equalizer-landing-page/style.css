@@ -11,7 +11,60 @@ button {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-/* mobile */
-header {
-  padding: 40px 24px 0;
+/* style */
+.dark-word {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.625;
+  color: #191826;
 }
+
+/* mobile */
+
+/*header*/
+header {
+  max-width: 100%;
+  padding: 40px 0 0 24px;
+  background-image: url("./assets/bg-main-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 150% auto;
+  background-position: 50px -200px;
+}
+
+.logo {
+  margin-bottom: 64px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 2.5;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #191826;
+}
+
+.description {
+  padding-bottom: 164px;
+}
+
+/* image-app */
+.image-app{
+  position: relative;
+  max-width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #191826;
+  border-radius: 20px;
+  background-image: url("./assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: 280px auto;
+}
+
+.image-app img {
+  position: absolute;
+  width: 50%;
+  top: -98px;
+  left: 20%;
+}
+
