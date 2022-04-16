@@ -9,6 +9,7 @@ body {
 
 button {
   font-family: 'IBM Plex Sans', sans-serif;
+  border-style: none;
 }
 
 /* style */
@@ -19,12 +20,20 @@ button {
   color: #191826;
 }
 
+.style-btn {
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px 77px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.77777777778;
+}
 /* mobile */
 
 /*header*/
 header {
   max-width: 100%;
-  padding: 40px 0 0 24px;
+  padding: 40px 24px 0;
   background-image: url("./assets/bg-main-mobile.png");
   background-repeat: no-repeat;
   background-size: 150% auto;
@@ -63,8 +72,60 @@ header {
 
 .image-app img {
   position: absolute;
-  width: 50%;
+  width: 208px;
   top: -98px;
-  left: 20%;
+  left: 22%;
 }
 
+.premium {
+  padding: 48px 36px;
+  background-color: #FA7453;
+  color: #FCFAF9
+}
+
+.pre-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.pre-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55555555556;
+  margin-bottom: 36px;
+}
+
+.pay-page {
+  margin-bottom: 32px;
+}
+
+.pay-page .price{
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 0.8;
+  margin-right: 16px;
+}
+
+.pay-page .period{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: -0.2px;
+  }
+
+  .download-ios {
+    position: relative;
+    background-color: #191826;
+    color: #FCFAF9;
+  }
+
+  .download-ios::before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 20px;
+  background-image: url("./assets/icon-apple.svg");
+  background-repeat: no-repeat;
+}
