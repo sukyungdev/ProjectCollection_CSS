@@ -12,6 +12,9 @@ button {
   border-style: none;
 }
 
+a {text-decoration: none;}
+
+
 /* style */
 .dark-word {
   font-size: 16px;
@@ -41,7 +44,7 @@ header {
   background-position: 50px -200px;
 }
 
-.logo {
+header > .logo {
   margin-bottom: 64px;
 }
 
@@ -79,10 +82,14 @@ header {
 }
 
 /* premium */
+
 .premium {
+  position: relative;
+  top: -220px;
   padding: 48px 36px;
+  border-radius: 12px;
   background-color: #FA7453;
-  color: #FCFAF9
+  color: #FCFAF9;
 }
 
 .pre-title {
@@ -160,3 +167,35 @@ header {
   background-repeat: no-repeat;
 }
 
+/* footer */
+footer {
+  position: relative; 
+}
+
+.contact {
+  background-color: #FFFFFF;
+  position: absolute;
+  top: -156px;
+  padding: 0 24px;
+}
+
+.contact > .logo {
+  margin-bottom: 32px;
+}
+
+.con-description {
+  margin-bottom: 64px;
+}
+
+.sns-link {
+  margin-bottom: 5px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  margin-bottom: 80px;
+  font-size: 10px;
+}
