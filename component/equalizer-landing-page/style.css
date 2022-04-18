@@ -23,10 +23,11 @@ button {
 .style-btn {
   border-radius: 12px;
   text-align: center;
-  padding: 15px 77px;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.77777777778;
+  letter-spacing: -0.18px;
+  margin: 0 auto;
 }
 /* mobile */
 
@@ -77,6 +78,7 @@ header {
   left: 22%;
 }
 
+/* premium */
 .premium {
   padding: 48px 36px;
   background-color: #FA7453;
@@ -97,8 +99,11 @@ header {
   margin-bottom: 36px;
 }
 
+/* pay-page*/
 .pay-page {
   margin-bottom: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .pay-page .price{
@@ -115,17 +120,43 @@ header {
   letter-spacing: -0.2px;
   }
 
+  /* buttons */
   .download-ios {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 77px;
+    margin-bottom: 16px;
     background-color: #191826;
     color: #FCFAF9;
+    font-size: 18px;
   }
 
   .download-ios::before {
   content: '';
-  display: inline-block;
   width: 17px;
   height: 20px;
+  margin-right: 7.9px;
   background-image: url("./assets/icon-apple.svg");
   background-repeat: no-repeat;
 }
+
+.download-and {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 58px;
+  background-color: #FCFAF9;
+  color: #191826;
+  font-size: 18px;
+}
+
+.download-and::before {
+  content: '';
+  width: 17px;
+  height: 20px;
+  margin-right: 7.8px;
+  background-image: url("./assets/icon-android.svg");
+  background-repeat: no-repeat;
+}
+
