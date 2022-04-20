@@ -14,4 +14,399 @@ button {
 
 a {text-decoration: none;}
 
+/* ----moblie---- */
 
+main {
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  background: url("./assets/bg-main-mobile.png") no-repeat 45px -200px;
+  background-size: 500px auto;
+}
+/* header */
+header {
+  padding: 0 24px;
+  color: #191826;
+}
+
+header > .logo {
+  padding: 40px 0 66px;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.45px;
+  margin-bottom: 18px;
+}
+
+.words {
+  font-size: 16px;
+  line-height: 1.625;
+  padding-bottom: 68px;
+}
+
+/* infor */
+
+.infor {
+  position: relative;
+}
+
+.app::after {
+  content: '';
+  position: relative;
+  display: block;
+  top: -330px;
+  width: 100%;
+  height: 602px;
+  background: #191826 url("./assets/bg-pattern-2.svg") no-repeat center top;
+  background-size: 70% auto;
+  border-radius: 12px;
+  z-index: -3;
+}
+
+.infor .app > img {
+  display: block;
+  width: 208px;
+  margin: 0 auto;
+}
+
+/* .infor .premium*/
+.premium {
+  position: absolute;
+  top: 478px;
+  background-color: #FA7453;
+  border-radius: 12px;
+  color: #FCFAF9;
+  padding:  48px 36px;
+}
+
+.premium > h2 {
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.premium > p {
+  font-size: 18px;
+  line-height: 1.5555555556;
+  margin-bottom: 36px;
+}
+
+.pay {
+  padding: 0 6px;
+}
+.pay-page {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.price {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 0.8;
+  margin-right: 16px;
+}
+
+.period {
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: -0.2px;
+}
+
+/* button */
+
+.style-btn {
+  width: 100%;
+  height: 61px;
+  padding: 14px 0;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7777777778;
+  letter-spacing: -0.18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-ios {
+  background-color: #191826;
+  color: #FCFAF9;
+  margin-bottom: 16px;
+}
+
+.download-ios::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+  margin-right: 7.9px;
+  background: url("./assets/icon-apple.svg") no-repeat center center;
+  background-size: 100% auto;
+}
+
+.download-and {
+  background-color: #FCFAF9;
+  color: #191826;
+}
+
+.download-and::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+  margin-right: 7.9px;
+  background: url("./assets/icon-android.svg") no-repeat center center;
+  background-size: 100% auto;
+}
+
+/* contact */
+.contact {
+  padding: 0 24px;
+  color: #191826;
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+.con-word{
+  margin-bottom: 64px;
+}
+
+.contact > .logo {
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+.contact span {
+  font-weight: 700;
+}
+
+/* sns-icon */
+.sns-icon {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* sukyungdev */
+
+.name {
+  padding: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+/* ----tablet---- */
+
+@media screen and (min-width:768px) {
+
+  main {
+    max-width: 992px;
+  }
+
+  body {
+    background: url("./assets/bg-main-tablet.png") no-repeat;
+    background-position: -300px -210px;
+    background-size: 1100px auto;
+  }
+
+  /* header */
+
+  header {
+    padding: 0 39px;
+    background: url("./assets/bg-pattern-1.svg") no-repeat right -33px;
+    background-size: 267px auto;
+  }
+  
+  header > .logo {
+    padding: 62px 0 95px;
+  }
+  
+  .title {
+    font-size: 64px;
+    line-height: 1.0;
+    letter-spacing: -0.73px;
+    margin-bottom: 28px;
+    padding-right: 20%;
+  }
+  
+  .words {
+    font-size: 18px;
+    line-height: 1.5555555556;
+    padding-bottom: 111px;
+    padding-right: 26%;
+  }
+  
+  /* infor */
+  .app {
+    padding: 0 36px;
+  }
+  
+  .app::after {
+    top: -415px;
+    background-position: center -25px;
+    background-size: 280px auto;
+  }
+  
+  .infor .app > img {
+    width: 270px;
+    margin-left: 64px;
+  }
+  
+  /* .infor .premium*/
+  .premium {
+    width: 400px;
+    top: 290px;
+    right: 12%;
+    padding: 48px;
+  }
+  
+  /* contact */
+  .contact {
+    position: absolute;
+    width: 100%;
+    top: 860px;
+    padding: 0 36px;
+  }
+  
+  .con-word{
+    width: 50%;
+    height: 80px;
+    margin-bottom: 0;
+  }
+  
+  .contact-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* sukyungdev */
+  
+  .name {
+    padding: 0 39px 20px;
+  }
+}
+
+/* ----desktop---- */
+
+@media screen and (min-width:1440px) {
+
+  main {
+    max-width: 1440px;
+  }
+  
+  body {
+    background: url("./assets/bg-main-desktop.png") no-repeat -230px -220px;
+    background-size: 120% auto;
+  }
+
+  /* header */
+
+  header {
+    padding: 0 165px;
+    background: url("./assets/bg-pattern-1.svg") no-repeat right -33px;
+    background-size: 267px auto;
+  }
+  
+  header > .logo {
+    padding: 62px 0 127px;
+  }
+  
+  .title {
+    font-size: 88px;
+    letter-spacing: -1px;
+    margin-bottom: 40px;
+  }
+  
+  .words {
+    font-size: 20px;
+    line-height: 1.417;
+    padding-bottom: 108px;
+  }
+  
+  /* infor */
+  .app {
+    padding: 0 165px;
+  }
+  
+  .app::after {
+    top: -430px;
+    background-position: 40% -25px;
+    background-size: 312px auto;
+  }
+  
+  .infor .app > img {
+    width: 312px;
+    margin-left: 102px;
+  }
+  
+  /* .infor .premium*/
+  .premium {
+    width: 450px;
+    top: 290px;
+    right: 18%;
+    padding: 58px;
+  }
+  
+  .premium > h2 {
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 22px;
+  }
+  
+  .premium > p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 39px;
+  }
+  
+  .pay {
+    padding: 0;
+  }
+
+  .pay-page {
+    margin-bottom: 46px;
+  }
+
+  /* contact */
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 1000px;
+    padding: 0 165px;
+  }
+
+  .contact > .logo {
+    margin: 0;
+    padding-right: 137px;
+    padding-bottom: 47px;
+  }
+  
+  .con-word{
+    flex-grow: 1;
+    height: 80px;
+    margin-bottom: 0;
+    padding-right: 370px;
+  }
+  
+  .contact-box {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /* sukyungdev */
+  
+  .name {
+    padding: 0 165px 20px;
+  }
+}
