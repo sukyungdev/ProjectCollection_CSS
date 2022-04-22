@@ -10,6 +10,7 @@ body {
 button {
   font-family: 'IBM Plex Sans', sans-serif;
   border-style: none;
+  cursor: pointer;
 }
 
 a {text-decoration: none;}
@@ -25,13 +26,13 @@ body {
   background: url("./assets/bg-main-mobile.png") no-repeat 45px -200px;
   background-size: 500px auto;
 }
-/* header */
-header {
+/* .start-part */
+.start-part {
   padding: 0 24px;
   color: #191826;
 }
 
-header > .logo {
+.start-part > .logo {
   padding: 40px 0 66px;
 }
 
@@ -216,15 +217,15 @@ header > .logo {
     background-size: 1100px auto;
   }
 
-  /* header */
+  /* .start-part */
 
-  header {
+  .start-part {
     padding: 0 39px;
     background: url("./assets/bg-pattern-1.svg") no-repeat right -33px;
     background-size: 267px auto;
   }
   
-  header > .logo {
+  .start-part > .logo {
     padding: 62px 0 95px;
   }
   
@@ -306,15 +307,15 @@ header > .logo {
     background-size: 120% auto;
   }
 
-  /* header */
+  /* .start-part */
 
-  header {
+  .start-part {
     padding: 0 165px;
     background: url("./assets/bg-pattern-1.svg") no-repeat right -33px;
     background-size: 267px auto;
   }
   
-  header > .logo {
+  .start-part > .logo {
     padding: 62px 0 127px;
   }
   
@@ -403,7 +404,10 @@ header > .logo {
     align-items: center;
   }
 
-
+  .sns-icon a:hover svg path {
+    fill: #FA7453;
+    cursor: pointer;
+  }
   /* sukyungdev */
   
   .name {
