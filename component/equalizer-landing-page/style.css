@@ -141,6 +141,10 @@ body {
   margin-bottom: 16px;
 }
 
+.download-ios a {
+  color: #FCFAF9;
+}
+
 .download-ios::before {
   content: '';
   display: inline-block;
@@ -153,6 +157,10 @@ body {
 
 .download-and {
   background-color: #FCFAF9;
+  color: #191826;
+}
+
+.download-and a{
   color: #191826;
 }
 
