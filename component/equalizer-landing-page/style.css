@@ -137,7 +137,6 @@ body {
 
 .download-ios {
   background-color: #191826;
-  color: #FCFAF9;
   margin-bottom: 16px;
 }
 
@@ -157,10 +156,9 @@ body {
 
 .download-and {
   background-color: #FCFAF9;
-  color: #191826;
 }
 
-.download-and a{
+.download-and a {
   color: #191826;
 }
 
