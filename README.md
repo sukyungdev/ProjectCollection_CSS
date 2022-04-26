@@ -48,7 +48,7 @@ netlify를 이용하여 배포하였습니다.
 ### [Order summary component](https://sudev-cssproject.netlify.app/component/order-summary-component/index.html)
 
 체감 난이도 : \*\*  
- background와 media-query를 연습하기에 좋은 프로젝트.  
+background와 media-query를 연습하기에 좋은 프로젝트.  
 background short-cut을 알수 있었습니다.
 
 ---
@@ -57,4 +57,6 @@ background short-cut을 알수 있었습니다.
 
 체감 난이도 : \*\*\*  
 mobile, tablet, desktop의 responsive web 프로젝트.  
-position(absolute,relative)을 연습하기에 좋은 프로젝트입니다.
+html markup과 position(absolute,relative)을 연습하기에 좋은 프로젝트입니다.
+
+**css svg에 관해 알게 되었습니다.**
