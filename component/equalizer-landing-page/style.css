@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -175,17 +179,18 @@ body {
   line-height: 1.625;
 }
 
-.con-word{
-  margin-bottom: 64px;
-}
-
 .contact > .logo {
   margin-top: 64px;
   margin-bottom: 32px;
 }
 
-.contact span {
+.con-word{
+  margin-bottom: 64px;
+}
+
+.con-word > a {
   font-weight: 700;
+  color: #191826;
 }
 
 /* sns-icon */
@@ -199,7 +204,15 @@ body {
 .sns-icon a:hover svg path {
   fill: #FA7453;
   cursor: pointer;
+  transition: fill 200ms ease-out;
 }
+
+.sns-icon a:hover svg path {
+  fill: #FA7453;
+  cursor: pointer;
+  transition: fill 200ms ease-out;
+}
+
 /* sukyungdev */
 
 .name {
