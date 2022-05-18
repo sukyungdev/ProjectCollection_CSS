@@ -27,6 +27,7 @@ netlify를 이용하여 배포하였습니다.
 - 22.04.08 [NFT preivew card component](https://sudev-cssproject.netlify.app/component/nft-preview-card/index.html)
 - 22.04.11 [Order summary component](https://sudev-cssproject.netlify.app/component/order-summary-component/index.html)
 - 22.04.20 [Equalizer-landing-page](https://sudev-cssproject.netlify.app/component/equalizer-landing-page/index.html)
+- 22.04.29 [Meet-landing-page](https://sudev-cssproject.netlify.app/component/meet-landing-page/index.html)
 
 ## 구현 후기
 
@@ -60,3 +61,12 @@ mobile, tablet, desktop의 responsive web 프로젝트.
 html markup과 position(absolute,relative)을 연습하기에 좋은 프로젝트입니다.
 
 **css svg에 관해 알게 되었습니다.**
+
+---
+
+### [Meet-landing-page](https://sudev-cssproject.netlify.app/component/meet-landing-page/index.html)
+
+체감 난이도 : \*\*\*\*
+background 속성과 z-index속성의 사용이 포인트인 프로젝트 같습니다.
+
+---
