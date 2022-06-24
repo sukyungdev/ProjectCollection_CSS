@@ -82,7 +82,6 @@ section {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* justify-content: center; */
   align-items: center;
   margin-bottom: 1.5em;
 }
@@ -116,6 +115,47 @@ section {
     height: 446px;
   }
 
+  .headerImgBox {
+    border-radius: 8px 0 0 8px;
+    height: 446px;
+    margin-bottom: 0;
+  }
+  
+  .headerImgBox::after {
+    border-radius: 8px 0 0 8px;
+  }
 
+  .content {
+    padding: 72px ;
+  }
+  
+  .title {
+    font-size: 36px;
+    line-height: 1.2222222222;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  
+  .desc {
+      text-align: left;
+      font-weight: 400;
+      margin-bottom: 72px;
+  }
+  .information-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .information {
+    display: block;
+    margin-bottom: 0;
+    margin-right: 60px;
+    
+  }
+  
+  .information strong{
+    line-height: 1.2083333333;
+  }
 
 }
