@@ -23,11 +23,12 @@ netlify를 이용하여 배포하였습니다.
 
 ## 구현 목록
 
-- 22.03.24 [QR code component](https://sudev-cssproject.netlify.app/component/qr_code/index.html)
-- 22.04.08 [NFT preivew card component](https://sudev-cssproject.netlify.app/component/nft-preview-card/index.html)
-- 22.04.11 [Order summary component](https://sudev-cssproject.netlify.app/component/order-summary-component/index.html)
-- 22.04.20 [Equalizer-landing-page](https://sudev-cssproject.netlify.app/component/equalizer-landing-page/index.html)
-- 22.04.29 [Meet-landing-page](https://sudev-cssproject.netlify.app/component/meet-landing-page/index.html)
+-   22.03.24 [QR code component](https://sudev-cssproject.netlify.app/component/qr_code/index.html)
+-   22.04.08 [NFT preivew card component](https://sudev-cssproject.netlify.app/component/nft-preview-card/index.html)
+-   22.04.11 [Order summary component](https://sudev-cssproject.netlify.app/component/order-summary-component/index.html)
+-   22.04.20 [Equalizer-landing-page](https://sudev-cssproject.netlify.app/component/equalizer-landing-page/index.html)
+-   22.04.29 [Meet-landing-page](https://sudev-cssproject.netlify.app/component/meet-landing-page/index.html)
+-   22.06.22 [stats-preview-card-component](https://sudev-cssproject.netlify.app/component/stats-preview-card-component/index.html)
 
 ## 구현 후기
 
@@ -42,7 +43,7 @@ netlify를 이용하여 배포하였습니다.
 
 체감 난이도 : \*\*  
  전반적인 난이도는 QR code component 와 비슷하나 hover를 이용한  
- 이미지 trick이 요점인 프로젝트.
+ image trick이 요점인 프로젝트.
 
 ---
 
@@ -66,7 +67,14 @@ html markup과 position(absolute,relative)을 연습하기에 좋은 프로젝�
 
 ### [Meet-landing-page](https://sudev-cssproject.netlify.app/component/meet-landing-page/index.html)
 
-체감 난이도 : \*\*\*\*
+체감 난이도 : \*\*\*\*  
 background 속성과 z-index속성의 사용이 포인트인 프로젝트 같습니다.
+
+---
+
+### [stats-preview-card-component](https://sudev-cssproject.netlify.app/component/stats-preview-card-component/index.html)
+
+체감 난이도 : \*\*
+mix-blend-mode속성에 관해 알게 되었습니다.
 
 ---
