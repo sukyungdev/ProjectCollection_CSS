@@ -1,3 +1,4 @@
+/* CSS Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,16 +17,15 @@ ul {
   padding: 0;
 }
 
-.clearfix::after {
-  content: '';
-  display: block;
-  clear: both;
+.Container {
+  width: 100%;
+  height: 100vh;
+  padding: 2em;
 }
 
 .content {
-  width: 768px;
+  max-width: 960px;
   margin: 0 auto;
-  padding-top: 20px;
 }
 
 /*nav*/
@@ -61,18 +61,7 @@ nav a {
   color: #5f5f5f;;
 }
 
-.challenge {
-  display: block;
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
 /*main*/
-main {
-  margin-bottom: 50px;
-}
-
 .main_title {
   display: flex;
   justify-content: space-between;
@@ -111,12 +100,68 @@ main {
 }
 
 /*footer*/
-
 .copyright {
-  position: fixed;
+  position: absolute;
   color: #919191;
-  bottom: 30px;
+  right: 2em;
+  bottom: 2em;
   font-size: 12px;
   font-weight: 300;
 }
 
+
+/* mobile */
+@media (max-width:576px){
+  .Container {
+    padding: 2em;
+  }
+
+  .content {
+    min-width: 350px;
+  }
+  
+  nav > div{
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  nav a {
+    display: none;
+  }
+  
+  .simple_des{
+    text-align: center;
+  }
+  
+  /*main*/
+  .main_title::before {
+    content: 'Date';
+    display: block;
+  }
+
+  .main_title a {
+    display: none;
+  }
+  
+  /* pro_list */
+  .pro_list .fix{
+    display: none;
+  }
+
+  .pro_list > li {
+    display: block;
+  }
+  
+  .pro_list > li > div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pro_list .date {
+    margin-right: 0;
+  }
+}
